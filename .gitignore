@@ -1,3 +1,6 @@
+~/egoexo
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -14,7 +17,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
@@ -218,3 +221,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Veteran's Eyes: licensed or generated data, never committed
+fixtures/egoexo_*
+data/
+.transfer/
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+node_modules/
+
+# Local media and scratch: never in the public repo
+media/
+dataset/
+/*.mp4
+/*.mov
+*.mov

@@ -1,0 +1,183 @@
+{
+ "domain": "two-wheeler",
+ "duration_s": 484.01,
+ "source_video": "senior_cut.mp4",
+ "steps": [
+  {
+   "check_hint": "Rear wheel raised off the ground on the paddock stand",
+   "critical": false,
+   "end_s": 44.0,
+   "expert_tips": [
+    "Use a paddock stand so you can get the back wheel on this bike up in the air",
+    "Disposable gloves to keep the gunk off my hands",
+    "Sunglasses to keep it out of my eyes"
+   ],
+   "instruction": "Raise the rear wheel on the paddock stand.",
+   "parts": [
+    "rear wheel",
+    "chain"
+   ],
+   "start_s": 38.0,
+   "step_no": 1,
+   "tools": [
+    "paddock stand",
+    "disposable gloves",
+    "sunglasses"
+   ],
+   "warnings": []
+  },
+  {
+   "check_hint": "Whole chain has been sprayed and scrubbed, with brush marks visible around its circuit",
+   "critical": false,
+   "end_s": 190.0,
+   "expert_tips": [
+    "We are cleaning off the old lube, which turns detritus into a grinding paste which can prematurely wear the chain",
+    "Clean a portion of the chain at one time rather than spraying the whole thing and having the cleaner dry out",
+    "The chain brush gets all three sides in one scrub, so you get all three sides in one scrub",
+    "Look for the brush marks to tell you have been all the way around the circuit of the chain"
+   ],
+   "instruction": "Spray cleaner on one chain section and scrub.",
+   "parts": [
+    "chain",
+    "rear sprocket"
+   ],
+   "start_s": 44.0,
+   "step_no": 2,
+   "tools": [
+    "chain cleaner",
+    "chain brush"
+   ],
+   "warnings": []
+  },
+  {
+   "check_hint": "Chain and sprocket rinsed, with water washing residue and gunk away",
+   "critical": false,
+   "end_s": 214.0,
+   "expert_tips": [
+    "People who douse it with chain cleaner until the chain is shiny get through chain cleaner really, really quickly",
+    "I tend to use a garden hose, or a pump-up garden sprayer, to clean away any residue of gunk"
+   ],
+   "instruction": "Rinse all the gunk off with water.",
+   "parts": [
+    "chain",
+    "rear sprocket",
+    "rear wheel"
+   ],
+   "start_s": 190.0,
+   "step_no": 3,
+   "tools": [
+    "garden hose"
+   ],
+   "warnings": []
+  },
+  {
+   "check_hint": "Chain on the bottom run looks dry after passing through the rag",
+   "critical": true,
+   "end_s": 249.0,
+   "expert_tips": [
+    "Use a microfibre cloth or any old rag, try not one that's going to leave bits in your chain",
+    "On that bottom run, roll the chain through and try and get as much moisture out of there as you can"
+   ],
+   "instruction": "Dry the chain by rolling through a rag.",
+   "parts": [
+    "chain"
+   ],
+   "start_s": 214.0,
+   "step_no": 4,
+   "tools": [
+    "microfibre cloth"
+   ],
+   "warnings": [
+    "Be careful not to get fingers and stuff jammed in there",
+    "Definitely don't do this with the engine running",
+    "Try not to get fingers jammed in the teeth"
+   ]
+  },
+  {
+   "check_hint": "Wheel rim and sprocket wiped free of chain lube residue",
+   "critical": false,
+   "end_s": 297.0,
+   "expert_tips": [
+    "Gunk flung onto the back wheel and sprocket will be really stubborn to get rid of when you come to clean the bike",
+    "Bike cleaner is probably unlikely to get rid of it as well as that chain cleaner",
+    "Spray a bit of chain cleaner on the rag and use that rag to clean the wheel down"
+   ],
+   "instruction": "Wipe the wheel rim and sprocket clean.",
+   "parts": [
+    "rear wheel rim",
+    "rear sprocket"
+   ],
+   "start_s": 249.0,
+   "step_no": 5,
+   "tools": [
+    "chain cleaner",
+    "rag"
+   ],
+   "warnings": []
+  },
+  {
+   "check_hint": "Chain completely dry and warmed after the short ride",
+   "critical": true,
+   "end_s": 342.0,
+   "expert_tips": [
+    "This stage is more of an ideal world stage, to make sure there's absolutely no water left in the chain and just to get it warmed up",
+    "If you don't take it out, just make sure it's completely dry before you move on to the lubrication stage"
+   ],
+   "instruction": "Ride briefly to dry and warm the chain.",
+   "parts": [
+    "chain",
+    "motorcycle"
+   ],
+   "start_s": 297.0,
+   "step_no": 6,
+   "tools": [],
+   "warnings": []
+  },
+  {
+   "check_hint": "Chain rollers and outer and inner plates evenly coated with lube",
+   "critical": true,
+   "end_s": 431.0,
+   "expert_tips": [
+    "With a sealed chain, the job of the lube is just to avoid corrosion and protect it from rust",
+    "We just need a coating on the outer plates, on the rollers, and a bit between the chain and the sprockets",
+    "Give the chain lube a good shake and fit the straw into the nozzle, we don't want it to spray everywhere",
+    "First place I always put it is between the sprocket and the chain",
+    "Light, controlled spray on the outer plates, don't want to get loads, a couple of spins should be enough"
+   ],
+   "instruction": "Spray lube between sprocket, rollers and plates.",
+   "parts": [
+    "chain",
+    "rear sprocket",
+    "chain rollers",
+    "outer plates",
+    "inner plates"
+   ],
+   "start_s": 342.0,
+   "step_no": 7,
+   "tools": [
+    "chain lube",
+    "straw"
+   ],
+   "warnings": []
+  },
+  {
+   "check_hint": "Lubed chain keeps its coating after the rear wheel is spun",
+   "critical": false,
+   "end_s": 464.0,
+   "expert_tips": [
+    "Spin the back wheel a few times to try and get that lube to work through",
+    "Leave the bike to stand for a bit, let that solvent in the chain lube go off, and hopefully it will stay in place for your next ride"
+   ],
+   "instruction": "Spin the rear wheel and leave bike standing.",
+   "parts": [
+    "rear wheel",
+    "chain"
+   ],
+   "start_s": 431.0,
+   "step_no": 8,
+   "tools": [],
+   "warnings": []
+  }
+ ],
+ "title": "Clean and lubricate the motorcycle chain"
+}

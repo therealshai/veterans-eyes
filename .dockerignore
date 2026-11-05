@@ -1,0 +1,11 @@
+.env
+.vet
+.venv
+data
+fixtures
+dataset
+.transfer
+**/__pycache__
+frontend/node_modules
+frontend/dist
+.git

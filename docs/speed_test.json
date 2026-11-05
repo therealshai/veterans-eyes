@@ -1,0 +1,150 @@
+[
+  {
+    "key": "spark",
+    "label": "1. Spark: plain answer",
+    "times": [
+      10.35,
+      9.0,
+      5.36,
+      3.24,
+      8.22
+    ],
+    "extra": {},
+    "errors": [],
+    "sample": ""
+  },
+  {
+    "key": "spark_verdict",
+    "label": "2. Spark: JSON verdict",
+    "times": [
+      8.8,
+      11.17,
+      7.96,
+      7.74,
+      10.0
+    ],
+    "extra": {},
+    "errors": [],
+    "sample": ""
+  },
+  {
+    "key": "sam",
+    "label": "3. SAM 3.1: segment one prompt",
+    "times": [
+      5.35,
+      3.19,
+      2.25,
+      4.56,
+      1.96
+    ],
+    "extra": {},
+    "errors": [],
+    "sample": ""
+  },
+  {
+    "key": "spark_fast",
+    "label": "1f. Spark: plain answer, minimal reasoning",
+    "times": [
+      4.224184167000203,
+      4.187824083997839,
+      6.254003958001704,
+      3.5186288750010135,
+      2.5054259589996946
+    ],
+    "extra": {},
+    "errors": [],
+    "sample": "The person's hand is touching a bicycle wheel."
+  },
+  {
+    "key": "spark_verdict_fast",
+    "label": "2f. Spark: JSON verdict, minimal reasoning",
+    "times": [
+      6.040431500001432,
+      3.255946125002083,
+      4.566251708001801,
+      3.9526535829973
+    ],
+    "extra": {},
+    "errors": [
+      "run 2: JSONDecodeError: Unterminated string starting at: line 1 column 12 (char 11)"
+    ],
+    "sample": "{'reason': 'Table layout does not match: Image 1 shows two long black tools side-by-side in center, Image 2 shows only one long black tool with different placem"
+  },
+  {
+    "key": "checkpoint",
+    "label": "2f+3. Checkpoint: Spark + SAM in parallel",
+    "times": [
+      4.73595750000095,
+      8.170347999999649,
+      5.253252583999711,
+      4.489148166998348,
+      6.226439665999351
+    ],
+    "extra": {},
+    "errors": [],
+    "sample": "{'verdict': {'reason': 'Image 2 does not match Image 1 workbench layout: the expert reference shows two long black tools side-by-side at the back of the bench, "
+  },
+  {
+    "key": "asr_file",
+    "label": "4a. Transcribe: file",
+    "times": [
+      2.3078354169847444,
+      1.7180316250305623,
+      1.6234345840057358,
+      2.7659091249806806,
+      1.912711874989327
+    ],
+    "extra": {},
+    "errors": [],
+    "sample": ""
+  },
+  {
+    "key": "asr_live",
+    "label": "4b. Transcribe: realtime (wait after speech)",
+    "times": [
+      0.31,
+      0.89,
+      0.4,
+      0.29,
+      1.03
+    ],
+    "extra": {
+      "connect": [
+        1.48,
+        1.48,
+        1.48,
+        1.64,
+        1.48
+      ],
+      "first_partial": [
+        10.56,
+        10.56,
+        10.56,
+        11.18,
+        10.56
+      ]
+    },
+    "errors": [],
+    "sample": ""
+  },
+  {
+    "key": "wonder",
+    "label": "5. Wonder: video + audio",
+    "times": [
+      42.28,
+      51.6
+    ],
+    "extra": {
+      "upload": [
+        10.8,
+        10.89
+      ],
+      "analysis": [
+        36.14,
+        40.7
+      ]
+    },
+    "errors": [],
+    "sample": "The video is a multi-angle recording of a single job - fitting the front wheel to a bicycle already mounted on a blue repair stand. The same action is shown in"
+  }
+]
