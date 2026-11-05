@@ -11,7 +11,7 @@ Built for the **Meta Global AI Developer Hackathon 2026**, indie track, theme **
 four Meta models give a phone a new capability: watching an expert once, then seeing, listening to
 and checking a beginner in the real world.
 
-- **Demo video (3 min):** linked in the hackathon submission
+- **Demo video (3 min):** linked in the hackathon submission : [LINK](https://drive.google.com/file/d/1Kz_EUfKa0LN0yZUGJYv1PGTaea8bDyA9/view?usp=sharing)
 - **Real-world test:** I had never cleaned a motorcycle chain. I cleaned my TVS Ronin's chain with only this app guiding me.
 
 ![Coach screen on a phone: spoken step, answer to a spoken question](docs/screenshots/coach-chain-answer.png)
